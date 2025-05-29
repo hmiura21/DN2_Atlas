@@ -137,7 +137,36 @@ Double-negative (DN2) B cells are a novel population of B cells that lack IgD an
 
 `DN2_Presentation`: PDF Presentation of research findings including main visualizations
 
+---
 
+
+## ✨ Shiny Visualization
+
+Here is an interactive shiny app link to explore the data even more:
+- [**Shiny Link**](https://github.com/hmiura21/DN2_Atlas)  
+
+
+---
+
+## 🎨 Example Visuals
+
+![mergedDN2_RPCA_Integration](https://github.com/user-attachments/assets/bd0f2837-209e-49f3-961d-6b7027b7230b)
+- healthy DN2 datasets integrated using RPCA color coded by study ID
+
+
+![mergedDN2_studyID](https://github.com/user-attachments/assets/5a21a6a5-5d4b-48c1-8e92-3404f9571700)
+- healthy DN2 datasets color coded by cluster ID
+
+
+![PropTest_Sex](https://github.com/user-attachments/assets/31780067-4fa3-46cb-99f2-549e117c673e)
+- Proportion test between male vs female sex in healthy DN2 dataset
+
+
+![StackedBarPlot_DN2_Powell_Female_IndividualEffect](https://github.com/user-attachments/assets/12e2ac02-3b7b-4e30-b79c-3008937a4247)
+- stacked bar plot for female Powell data visualizing individual effects
+
+![UMAP_Lupus_Webb_Annotated](https://github.com/user-attachments/assets/2c93d3f2-554a-4e59-a276-84d4da55704c)
+- UMAP cell annotations for Lupus Webb dataset
 
 ---
 
