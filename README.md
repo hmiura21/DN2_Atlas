@@ -77,23 +77,65 @@ Double-negative (DN2) B cells are a novel population of B cells that lack IgD an
 ---
 
 ## 📁 Repository Contents
-`DN2 Project Combined`:
-`DN2 Project Female`:
-`DN2 Project Male`:
-`DN2_AIDA_Combined`:
-`DN2_AIDA_Female`:
-`DN2_AIDA_Male`:
-`DN2_Barreiro`:
-`DN2_Covid_Youngs_Wilk.R`:
-`DN2_Crohns_Martin.R`:
-`DN2_Jimmie_Healthy`:
-`DN2_Lupus_Flynn.R`:
-`DN2_MS_Friese.R`:
-`DN2_Presentation`:
-`HIV_Holla.R`:
-`Malaria_Holla.R`:
+```bash
+├── COVID/
+│ └── DN2_Covid_Youngs_Wilk.R
+├── Crohns/
+│ └── DN2_Crohns_Martin.R
+├── HIV/
+│ └── HIV_Holla.R
+├── Healthy/
+│ ├── DN2 Project Combined.R
+│ ├── DN2 Project Female.R
+│ ├── DN2 Project Male.R
+│ ├── DN2_AIDA_Combined.R
+│ ├── DN2_AIDA_Female.R
+│ ├── DN2_AIDA_Male.R
+│ └── DN2_Jimmie_Healthy.R
+├── Malaria/
+│ └── Malaria_Holla.R
+├── Multiple Sclerosis
+│ └── DN2_MS_Friese.R
+├── SLE/
+│ ├── DN2_Lupus_Flynn.R
+│ └── DN2_Lupus_Webb.R
+├── DN2_Healthy&Disease.R
+├── MergedDN2.R
+├── DN2_Presentation.pdf
+└── README.md
+```
 
+`DN2 Project Combined.R`: R Script for Preprocessing of combined Powell healthy dataset from DOI: 10.1126/science.abf3041 (predominantly white elderly population)
 
+`DN2 Project Female.R`: R Script for Preprocessing of healthy female dataset from DOI: 10.1126/science.abf3041 (predominantly white elderly population)
+
+`DN2 Project Male.R`: R Script for Preprocessing of healthy male dataset from DOI: 10.1126/science.abf3041 (predominantly white elderly population)
+
+`DN2_AIDA_Combined.R`: R Script for Preprocessing of combined AIDA healthy dataset from Asian Immune Diversity Atlas (predominantly Asian population)
+
+`DN2_AIDA_Female.R`: R Script for Preprocessing of healthy female dataset from Asian Immune Diversity Atlas (predominantly Asian population)
+
+`DN2_AIDA_Male.R`: R Script for Preprocessing of healthy male dataset from Asian Immune Diversity Atlas (predominantly Asian population)
+
+`DN2_Covid_Youngs_Wilk.R`: R Script for Preprocessing of COVID dataset from DOI: 10.1016/j.isci.2023.108507 (Wilk) and DOI: 10.1371/journal.ppat.1009804 (Youngs)
+
+`DN2_Crohns_Martin.R`: R Script for Preprocessing of Crohns dataset from DOI: 10.1038/s41467-023-37849-3
+
+`DN2_Jimmie_Healthy`: R Script for Preprocessing of healthy dataset from DOI: 10.1126/science.abf1970
+
+`DN2_Lupus_Flynn.R`: R Script for Preprocessing of lupus dataset from DOI: 10.1038/s41590-020-0743-0
+
+`DN2_MS_Friese.R`: R Script for Preprocessing of multiple sclerosis dataset from DOI: 10.1016/j.medj.2021.01.006
+
+`HIV_Holla.R`: R Script for Preprocessing of HIV dataset from DOI: 10.1126/sciadv.abg8384
+
+`Malaria_Holla.R`: R Script for Preprocessing of Malaria dataset from DOI: 10.1126/sciadv.abg8384
+
+`DN2_Healthy&Disease.R` : R Script for visualization after healthy and disease dataset integration using RPCA
+
+`MergedDN2.R`: R Script for (healthy) dataset integration and visualization
+
+`DN2_Presentation`: PDF Presentation of research findings including main visualizations
 
 
 
